@@ -16,11 +16,17 @@
   <body>
     <div class="wrapper">
       <header>
-        <h1><font color="D33D3D">Mantle</font></h1>
+        <h1><font color="D33D3D">Mantle Blog Posts</font></h1>
         <p></p>
         <div class="navbar container">
           {% for x in site.data.nav %}
             <a href="{{ x.link }}">{{ x.name }}</a><br>
+          {% endfor %}
+        </div>
+        <br>
+        <h1><font color="D33D3D">News</font></h1>
+          {% for x in site.data.news %}
+            <a href="{{ x.link }}">{{ x.date }} - {{ x.description }}</a><br>
           {% endfor %}
         </div>
       </header>
@@ -28,7 +34,7 @@
         <div markdown="1">{{ content }}</div>
       </section>
       <footer>
-        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+        <p><small>Jekyll theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
       </footer>
     </div>
     <script src="javascripts/scale.fix.js"></script>

@@ -1,5 +1,19 @@
-- name: "Home"
+
+- name: "Running CephFS on a Cluster"
+  link: "blog0-cephfs"
+
+- name: "Running Mantle on a Cluster"
+  link: "blog1-mantle"
+
+- name: "Mantle on Different Versions of Ceph"
+  link: "blog2-versions"
+
+- name: "Mantle for Read Heavy Workloads"
+  link: "blog3-read"
+
+- name: "Mantle for Write Heavy Workloads"
+  link: "blog4-write"
+
+- name: "<-- Go Home"
   link: "/"
 
-- name: "Quickstart"
-  link: "quickstart"
