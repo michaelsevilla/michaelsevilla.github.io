@@ -1,9 +1,11 @@
 - date: "10/26/16"
   description: "Mantle merged into Ceph!"
   link: "https://github.com/ceph/ceph/pull/10887"
+
 - date: "01/15/16"
   description: "Mantle funded by CROSS!"
   link: "https://cross.soe.ucsc.edu/CROSS/Projects.html"
+
 - date: "11/15/15"
   description: "Mantle published (SC'15)!"
   link: "http://dl.acm.org/citation.cfm?id=2807607"

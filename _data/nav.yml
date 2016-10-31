@@ -1,19 +1,22 @@
 
+- name: "Packaging Ceph/Mantle Binaries"
+  link: "blog0-packaging"
+
 - name: "Running CephFS on a Cluster"
-  link: "blog0-cephfs"
+  link: "blog1-cephfs"
 
 - name: "Running Mantle on a Cluster"
   link: "blog1-mantle"
 
-- name: "Mantle on Different Versions of Ceph"
+- name: "Running Mantle on Hammer/Jewel"
   link: "blog2-versions"
 
-- name: "Mantle for Read Heavy Workloads"
+- name: "Running Mantle for Read Workloads"
   link: "blog3-read"
 
-- name: "Mantle for Write Heavy Workloads"
+- name: "Running Mantle for Write Workloads"
   link: "blog4-write"
 
-- name: "<-- Go Home"
+- name: "<-- Home"
   link: "/"
 

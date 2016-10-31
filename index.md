@@ -31,7 +31,7 @@ if MDSs[whoami]["load"]>.01 and
    MDSs[whoami+1]["load"]<.01 then
 ```
 
-This lets us compare load balancing strategies instead of the properties
+This lets us compare load balancing strategies instead of the properties of the
 storage systems themselves and helps future administrators understand the
 trade-offs of the metadata migration decisions.
 
@@ -40,6 +40,3 @@ trade-offs of the metadata migration decisions.
 1. M. Sevilla et al., *Mantle: A Programmable Metadata Load Balancer for the
 Ceph File System*, SC 2015,
 [[link](http://dl.acm.org/citation.cfm?id=2807607)]
-
-2. P.  Donnelly, *Initial results of CephFS performance evaluation*, Ceph
-Mailing List, [[link](http://marc.info/?l=ceph-devel&m=147494693010640&w=2)]
